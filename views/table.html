@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/theme.css">
+    <title>Table</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-navbar-container">
+        <span class="nav-brand">Sarabjeet</span>
+        <ul class="main-navbar">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="/audio">Audio</a></li>
+            <li class="nav-item"><a href="/video">Video</a></li>
+            <li class="nav-item"><a href="/list">List</a></li>
+            <li class="nav-item"><a href="/table">Table</a></li>
+            <li class="nav-item"><a href="/storefront">Store</a></li>
+        </ul>
+    </div>
+    <section class="page">
+        <h1>HTML Tables</h1>
+        <p>I will be using my knowledge of HTML Tables to demonstrate tables</p>
+        <h2>My Favorite Books</h2>
+        <table>
+            <caption>My Favorite Books</caption>
+            <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3 Mistakes of My Life</td>
+                    <td>Chetan Bhagat</td>
+                    <td>Fiction</td>
+                </tr>
+                <tr>
+                    <td>Harry Potter</td>
+                    <td>J.K. Rowling</td>
+                    <td>Fantasy</td>
+                </tr>
+                <tr>
+                    <td>Solo Leveling</td>
+                    <td>Chugong</td>
+                    <td>Action/Fantasy</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">These are my favorite books</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>My Favorite Movies</h2>
+        <table>
+            <caption>My Favorite Movies</caption>
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Director</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PK</td>
+                    <td>Rajkumar Hirani</td>
+                    <td>Drama</td>
+                </tr>
+                <tr>
+                    <td>Dhoom3</td>
+                    <td>Vijay Krishnat</td>
+                    <td>Action</td>
+                </tr>
+                <tr>
+                    <td>Your Name</td>
+                    <td>Makoto Shinkai</td>
+                    <td>Romance/fantasy</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">These are my favorite movies</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</body>
+
+</html>
